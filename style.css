@@ -1,31 +1,38 @@
+.body,html
+{
+  background-color: black;
+  height: 100%;
+  margin: 0;
+}
+
+.container
+{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
 .topper 
 {
   height: 80px;
   background-color: black;
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 80px;
   font-family: "fantasy";
+  width: 100%;
+  padding-bottom: 10px;
 }
 
 .construction
 {
-  height: 120px;
-}
-
-.container
-{
-	height: 100%;
-	width: 100%;
+  height: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4b194c;
 }
 
 .content
-{
-  background-color: black;
-  height: 100%;
-}
-
-html
 {
   background-color: black;
 }
@@ -35,13 +42,12 @@ html
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-}
-
-.centersmall
-{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	height: 100%;
 }
+
+.logo
+{
+	height: 600px;
+}
+
+
