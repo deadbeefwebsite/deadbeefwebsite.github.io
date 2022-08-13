@@ -1,0 +1,47 @@
+.topper 
+{
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: "fantasy";
+}
+
+.construction
+{
+  height: 120px;
+}
+
+.container
+{
+	height: 100%;
+	width: 100%;
+}
+
+.content
+{
+  background-color: black;
+  height: 100%;
+}
+
+html
+{
+  background-color: black;
+}
+
+.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.centersmall
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
